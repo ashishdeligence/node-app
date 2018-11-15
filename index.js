@@ -8,7 +8,7 @@ app.set('port',(process.env.PORT || 8000));
 
 //Respond with "hello world" for requests that hit our root "/"
 app.get('/', function (req, res) {
- res.send('hello how are you');
+ res.send('hello this is my first node app with ci/cd');
 });
 
 //listen to port 3000 by default
